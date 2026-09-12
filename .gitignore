@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+.venv/
+venv/
+
+# Environment / secrets
+.env
+.env.spark
+*.pem
+*.key
+
+# Spark
+spark/metastore_db/
+rainforest/
+
+# Great Expectations
+etl/great_expectations/uncommitted/
+
+# Editor
+.vscode/
+.idea/
+.DS_Store
+
+# Logs and temp
+*.log
+*.tmp
